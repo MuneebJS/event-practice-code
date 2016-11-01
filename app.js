@@ -55,3 +55,12 @@
 //     var get = document.getElementById('yes').style.margin;
 //     alert(get);
 // }
+
+function expand() {
+    var paraMore = "yes, I'm there";
+    document.getElementById("para").innerHTML = paraMore;
+    document.getElementById("a").style.display = "none";
+    
+}
+var showMargin = document.getComputedStyle("para2").margin;
+alert(showMargin);
